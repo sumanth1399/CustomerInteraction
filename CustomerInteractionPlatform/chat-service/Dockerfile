@@ -6,6 +6,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY main.py .
+COPY static ./static
 
 # Cloud Run requires listening on PORT env variable
 ENV PORT=8080
