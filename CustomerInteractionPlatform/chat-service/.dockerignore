@@ -1,0 +1,20 @@
+# Exclude virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude OS files
+.DS_Store
+*~
+
+# IMPORTANT: Do NOT exclude main.py, requirements.txt, or Dockerfile
+# These are needed for the build
