@@ -10,7 +10,7 @@ messageInput.addEventListener('keypress', (e) => {
     }
 });
 
-async function sendMessage() {
+export async function sendMessage() {
     const message = messageInput.value.trim();
     
     if (!message) return;
