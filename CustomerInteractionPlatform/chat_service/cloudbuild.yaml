@@ -13,7 +13,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'chat-service'
+      - 'chat_service'
       - '--image'
       - 'gcr.io/$PROJECT_ID/chat-service:latest'
       - '--region'
@@ -27,6 +27,6 @@ steps:
       - '512Mi'
 
 images:
-  - 'gcr.io/$PROJECT_ID/chat-service:latest'
+  - 'gcr.io/$PROJECT_ID/chat_service:latest'
 
 timeout: '1800s'

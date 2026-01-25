@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  chat-service:
-    build: ./chat-service
+  chat_service:
+    build: ./chat_service
     ports:
       - "8001:8080"
     environment:

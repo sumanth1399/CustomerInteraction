@@ -7,7 +7,7 @@ PROJECT_ID="customerinteraction"
 REGION="us-central1"
 
 # Set the service name
-SERVICE_NAME="chat-service"
+SERVICE_NAME="chat_service"
 
 echo "Building and deploying $SERVICE_NAME to Cloud Run..."
 
